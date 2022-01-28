@@ -1,0 +1,7 @@
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.AssemblyInfoInputs.cache
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.AssemblyInfo.cs
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.csproj.CoreCompileInputs.cache
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.RazorAssemblyInfo.cache
+C:\Users\jslat\source\repos\IT2030\FutureValues\obj\Debug\netcoreapp3.1\FutureValue.RazorAssemblyInfo.cs
