@@ -1,0 +1,23 @@
+﻿@model List<Trip>
+@{
+    ViewBag.Title = "My Trip Log";
+}
+
+<main class="container">
+    <a asp-controller="Trip" asp-action="LinkToCreateNewTrip">Add a new trip</a>
+    <table class="table table-bordered table-striped">
+        <tr><th>Destination</th><th>Start Date</th><th>End Date</th><th>Accommodations</th><th>Things To Do</th></tr>
+        @foreach (var trip in Model) {
+
+
+        <tr>
+            <td>@trip.Destination</td>
+            <td>@trip.StartDate.Date.ToShortDateString()</td>
+            <td>@trip.EndDate.Date.ToShortDateString()</td>
+            <td>@trip.AccomodationsStringBuilder()</td>
+            <td>@trip.ThingsToDoStringBuilder()</td>
+        </tr>
+        }
+    </table>
+    </div>
+</main>

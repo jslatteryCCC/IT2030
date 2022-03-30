@@ -1,0 +1,23 @@
+﻿@model Project1.Models.Trip
+
+@{
+    string title = "Add Things to Do in " + @Model.Destination;
+
+    ViewBag.Title = title;
+}
+
+<h2>@title</h2>
+<form asp-action="AddToDb" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <input asp-for="@Model.ThingToDo1" class="form-control">
+    </div>
+    <div class="form-group">
+        <input asp-for="@Model.ThingToDo2" class="form-control">
+    </div>
+    <div class="form-group">
+        <input asp-for="@Model.ThingToDo3" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>
