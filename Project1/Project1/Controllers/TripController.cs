@@ -17,7 +17,6 @@ namespace Project1.Controllers {
 
         [HttpPost]
         public IActionResult CreateNewTrip(Trip trip) {
-            context.Trips.Add(trip);
 
             if (trip.AccommodationName == null) {
                 return View("EnterThingsToDo", trip);
@@ -30,8 +29,8 @@ namespace Project1.Controllers {
         }
         [HttpPost] 
         public IActionResult AddToDb(Trip trip) {
+            context.Trips.Add(trip);
             context.SaveChanges();
-
             return View("Home", "Index");
         }
     }
