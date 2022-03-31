@@ -19,8 +19,11 @@ namespace Project1.Controllers {
             _logger = logger;
             context = ctx;
         }
-
+        [HttpGet]
         public IActionResult Index() {
+            if(TempData["message"] != null) {
+                ViewBag.Message = TempData["message"].ToString();
+            }
             var trips = context.Trips.OrderBy(t => t.Destination).ToList();
             return View(trips);
         }

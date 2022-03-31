@@ -130,7 +130,6 @@ C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\zh-
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\obj\Debug\netcoreapp3.1\Project1.csproj.AssemblyReference.cache
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\obj\Debug\netcoreapp3.1\Razor\Views\Trip\EnterAccommodationDetails.cshtml.g.cs
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\obj\Debug\netcoreapp3.1\Razor\Views\Trip\EnterThingsToDo.cshtml.g.cs
-C:\Users\jslat\source\repos\IT2030\Project1\Project1\obj\Debug\netcoreapp3.1\Razor\Views\Trip\CreateNewTrip.cshtml.g.cs
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
@@ -147,3 +146,4 @@ C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\Sys
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\Users\jslat\source\repos\IT2030\Project1\Project1\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\jslat\source\repos\IT2030\Project1\Project1\obj\Debug\netcoreapp3.1\Razor\Views\Trip\Add.cshtml.g.cs

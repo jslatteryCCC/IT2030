@@ -1,13 +1,18 @@
 ﻿@model Project1.Models.Trip
 
 @{
-    string title = "Add Things to Do in " + @Model.Destination;
-
+    string title = "Add Things to Do in " + ViewBag.Destination;
     ViewBag.Title = title;
+    string message = ViewBag.Message;
 }
 
 <h2>@title</h2>
-<form asp-action="AddToDb" method="post">
+@if (!string.IsNullOrEmpty(message)) {
+    <div class="alert alert-secondary">
+        <h1>Trip to @message added.</h1>
+    </div>
+}
+<form asp-action="EnterThingsToDo" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
         <input asp-for="@Model.ThingToDo1" class="form-control">
@@ -19,5 +24,5 @@
         <input asp-for="@Model.ThingToDo3" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+    <a asp-controller="Trip" asp-action="Cancel" class="btn btn-outline-secondary">Cancel</a>
 </form>

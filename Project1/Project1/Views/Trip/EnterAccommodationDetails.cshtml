@@ -1,7 +1,7 @@
 ﻿@model Project1.Models.Trip
 
 @{
-    string title = "Enter info for " + Model.AccommodationName;
+    string title = "Enter info for " + ViewBag.AccommodationName;
 
     ViewBag.Title = title;
 }
@@ -18,5 +18,5 @@
         <input asp-for="@Model.AccommodationEmail" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Next</button>
-    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+    <a asp-controller="Trip" asp-action="Cancel" class="btn btn-outline-secondary">Cancel</a>
 </form>
