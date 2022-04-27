@@ -1,0 +1,32 @@
+﻿@model PriceModel
+
+@{
+    
+}
+
+<h1 class="title">Price Quotation</h1>
+<div class="container">
+    <form asp-action="Index" method="post" >
+        <div asp-validation-summary="All" class="validation"></div>
+        <div>
+            <label asp-for="Subtotal">Subtotal:</label>
+            <input asp-for="Subtotal" />
+        </div>
+        <div>
+            <label asp-for="DiscountPercent">Discount Percent:</label>
+            <input asp-for="DiscountPercent" />
+        </div>
+        <div>
+            <label asp-for="DiscountAmount">Discount Amount:</label>
+            <input value="@ViewBag.DiscountAmount.ToString("C2")" class="input-no-border">
+        </div>
+        <div>
+            <label asp-for="Total">Total:</label>
+            <input value="@ViewBag.Total.ToString("C2")" class="input-no-border">
+        </div>
+        <button type="submit">Calculate</button>
+        <a asp-action="Index">Clear</a>
+    </form>
+
+
+</div>
